@@ -1,0 +1,22 @@
+# PSoC Creator Build Folders
+Debug/
+Release/
+CortexM0/
+CortexM3/
+CortexM4/
+ARM_GCC_441/
+ARM_GCC_473/
+ARM_GCC_541/
+DP8051/
+Export/
+
+# PSoC Creator Generated files that are safe to ignore
+*.cycdx
+*.rpt
+*.svd
+*.cyfit
+*.cgx
+
+# OS generated files
+.DS_Store
+Thumbs.db
