@@ -34,11 +34,3 @@ Reads angular position and angular velocity from the IMU
 Processes encoder feedback from the reaction wheel
 Computes control output using a PID controller
 Adjusts motor torque to counteract deviations from the upright equilibrium
-
--Key Engineering Concepts Demonstrated-
-Embedded systems design (bare-metal / low-level firmware)
-I2C peripheral integration
-Real-time control systems
-PID tuning and stability analysis
-Electromechanical system modeling
-Sensor fusion and feedback control 
