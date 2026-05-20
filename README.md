@@ -1,16 +1,17 @@
 
 
-This project implements a Reaction Wheel Pendulum, a form of self-balancing inverted pendulum that uses a high-speed flywheel (reaction wheel) to maintain upright stability. The system demonstrates real-time embedded control, sensor fusion, and motor actuation in a closed-loop control system.
+This project implements a Reaction Wheel Pendulum, a form of self-balancing inverted pendulum that uses a high-speed flywheel (reaction wheel) to maintain upright stability. 
+The system demonstrates real-time embedded control, sensor fusion, and motor actuation in a closed-loop control system.
 
 <img width="219" height="230" alt="image" src="https://github.com/user-attachments/assets/24f7f9df-7b40-4ce6-960a-5243e7402e2f" />
-
--Overview-
+**
+-Overview-**
 
 The reaction wheel pendulum maintains balance by controlling the angular momentum of a spinning flywheel. By accelerating or decelerating the wheel, an opposing torque is generated that stabilizes the pendulum in the upright position.
 
 This project was developed as a real-time embedded systems implementation, combining hardware integration with control theory and firmware design.
 
--Hardware Architecture-
+**-Hardware Architecture-**
 
 The system is built around the following components:
 
@@ -29,7 +30,7 @@ PID Control Loop for stabilizing the inverted pendulum
 Motor Control Interface to regulate BLDC torque output through PWM and driver commands
 Real-time Execution Loop optimized for deterministic control timing
 
--System Behavior-
+**-System Behavior-**
 
 The control system continuously:
 Reads angular position and angular velocity from the IMU
@@ -37,9 +38,11 @@ Processes encoder feedback from the reaction wheel
 Computes control output using a PID controller
 Adjusts motor torque to counteract deviations from the upright equilibrium
 
+
 This is a clip showing that the system is inherently unbalanced
 
 https://github.com/user-attachments/assets/7fdc09f3-9a09-4b5d-b0a2-c2b2ba5e31e1
+
 
 
 This is a short clip of the wheel balancing its self
