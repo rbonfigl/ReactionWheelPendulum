@@ -4,8 +4,9 @@ This project implements a Reaction Wheel Pendulum, a form of self-balancing inve
 The system demonstrates real-time embedded control, sensor fusion, and motor actuation in a closed-loop control system.
 
 <img width="219" height="230" alt="image" src="https://github.com/user-attachments/assets/24f7f9df-7b40-4ce6-960a-5243e7402e2f" />
-**
--Overview-**
+
+
+**-Overview-**
 
 The reaction wheel pendulum maintains balance by controlling the angular momentum of a spinning flywheel. By accelerating or decelerating the wheel, an opposing torque is generated that stabilizes the pendulum in the upright position.
 
@@ -20,7 +21,8 @@ Inertial Measurement Unit (IMU): Communicates via I2C for real-time angular posi
 BLDC Motor: Used as the reaction wheel actuator
 Motor Encoder: Provides rotational position/speed feedback via I2C
 Motor Driver: Texas Instruments motor driver for high-current control of the BLDC motor
-Software & Control System
+
+**Software & Control System**
 
 The firmware implements a real-time closed-loop control system featuring:
 
