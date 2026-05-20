@@ -1,7 +1,9 @@
 
 
 This project implements a Reaction Wheel Pendulum, a form of self-balancing inverted pendulum that uses a high-speed flywheel (reaction wheel) to maintain upright stability. 
-The system demonstrates real-time embedded control, sensor fusion, and motor actuation in a closed-loop control system.
+The system demonstrates real-time embedded control, sensor fusion, and motor actuation in a closed-loop control system.  
+
+Main code is found in the ReactionWheel.cydsn folder under main.c
 
 <img width="219" height="230" alt="image" src="https://github.com/user-attachments/assets/24f7f9df-7b40-4ce6-960a-5243e7402e2f" />
 
