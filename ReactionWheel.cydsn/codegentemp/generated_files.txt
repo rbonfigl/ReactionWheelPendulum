@@ -66,6 +66,11 @@
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_SPI_UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_BOOT.h" value="HEADER;;;;;UART" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM0;;;;Clock_1" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0;;;;Timer" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Timer_PM.c" value="SOURCE_C;CortexM0;;;;Timer" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\I2C_SCBCLK.c" value="SOURCE_C;CortexM0;;;;I2C_SCBCLK" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\I2C_SCBCLK.h" value="HEADER;;;;;I2C_SCBCLK" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\I2C_sda.c" value="SOURCE_C;CortexM0;;;;I2C_sda" />
@@ -80,14 +85,16 @@
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\I2C_SCB_IRQ.h" value="HEADER;;;;;I2C_SCB_IRQ" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_wake.c" value="SOURCE_C;CortexM0;;;;UART_rx_wake" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_wake.h" value="HEADER;;;;;UART_rx_wake" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_wake_aliases.h" value="HEADER;;;;;UART_rx_wake" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_wake_PM.c" value="SOURCE_C;CortexM0;;;;UART_rx_wake" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_RX_WAKEUP_IRQ.c" value="SOURCE_C;CortexM0;;;;UART_RX_WAKEUP_IRQ" />
+  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_RX_WAKEUP_IRQ.h" value="HEADER;;;;;UART_RX_WAKEUP_IRQ" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_tx.h" value="HEADER;;;;;UART_tx" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_tx_aliases.h" value="HEADER;;;;;UART_tx" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_tx_PM.c" value="SOURCE_C;CortexM0;;;;UART_tx" />
-  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx.c" value="SOURCE_C;CortexM0;;;;UART_rx" />
-  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx.h" value="HEADER;;;;;UART_rx" />
-  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_aliases.h" value="HEADER;;;;;UART_rx" />
-  <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\UART_rx_PM.c" value="SOURCE_C;CortexM0;;;;UART_rx" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\bonfi\Downloads\PSoC Creator\ReactionWheel\ReactionWheel.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />

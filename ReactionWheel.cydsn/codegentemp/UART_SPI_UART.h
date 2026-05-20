@@ -73,7 +73,7 @@
 #define UART_UART_IRDA_POLARITY         (0u)
 #define UART_UART_DROP_ON_FRAME_ERR     (0u)
 #define UART_UART_DROP_ON_PARITY_ERR    (0u)
-#define UART_UART_WAKE_ENABLE           (0u)
+#define UART_UART_WAKE_ENABLE           (1u)
 #define UART_UART_RX_BUFFER_SIZE        (8u)
 #define UART_UART_TX_BUFFER_SIZE        (8u)
 #define UART_UART_MP_MODE_ENABLE        (0u)

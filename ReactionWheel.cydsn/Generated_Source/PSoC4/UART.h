@@ -65,7 +65,7 @@
 #define UART_REMOVE_SCB_IRQ             (1u)
 #define UART_SCB_IRQ_INTERNAL           (0u == UART_REMOVE_SCB_IRQ)
 
-#define UART_REMOVE_UART_RX_WAKEUP_IRQ  (1u)
+#define UART_REMOVE_UART_RX_WAKEUP_IRQ  (0u)
 #define UART_UART_RX_WAKEUP_IRQ         (0u == UART_REMOVE_UART_RX_WAKEUP_IRQ)
 
 /* SCB interrupt enum */

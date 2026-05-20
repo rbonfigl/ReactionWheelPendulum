@@ -19,6 +19,10 @@
       <Data key="43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/78e33e5d-45ea-4b75-88d5-73274e8a7ce4" value="UART_rx" />
       <Data key="53a73348-417d-4c9b-b4dd-de9f61acdde0" value="IN_3_Out" />
       <Data key="280bb2f6-35ff-42fe-aa83-3754f2a42275" value="IN_2_Out" />
+      <Data key="c4d734a0-b656-4e03-93c3-2ff8c7bc184f/23b8206d-1c77-4e61-be4a-b4037d5de5fc" value="UART_1_tx" />
+      <Data key="c4d734a0-b656-4e03-93c3-2ff8c7bc184f/78e33e5d-45ea-4b75-88d5-73274e8a7ce4" value="UART_1_rx" />
+      <Data key="da60032a-2af7-427f-add3-d88187c232a6/5382e105-1382-4a2e-b9f4-3bb2feba71e0" value="I2C_IMU_sda" />
+      <Data key="da60032a-2af7-427f-add3-d88187c232a6/22863ebe-a37b-476f-b252-6e49a8c00b12" value="I2C_IMU_scl" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="IN_1_Out" />
     </Group>
   </Group>
@@ -3605,6 +3609,26 @@
     <Group key="280bb2f6-35ff-42fe-aa83-3754f2a42275">
       <Group key="0">
         <Data key="Port Format" value="2,7" />
+      </Group>
+    </Group>
+    <Group key="c4d734a0-b656-4e03-93c3-2ff8c7bc184f/23b8206d-1c77-4e61-be4a-b4037d5de5fc">
+      <Group key="0">
+        <Data key="Port Format" value="7,1" />
+      </Group>
+    </Group>
+    <Group key="c4d734a0-b656-4e03-93c3-2ff8c7bc184f/78e33e5d-45ea-4b75-88d5-73274e8a7ce4">
+      <Group key="0">
+        <Data key="Port Format" value="7,0" />
+      </Group>
+    </Group>
+    <Group key="da60032a-2af7-427f-add3-d88187c232a6/5382e105-1382-4a2e-b9f4-3bb2feba71e0">
+      <Group key="0">
+        <Data key="Port Format" value="3,1" />
+      </Group>
+    </Group>
+    <Group key="da60032a-2af7-427f-add3-d88187c232a6/22863ebe-a37b-476f-b252-6e49a8c00b12">
+      <Group key="0">
+        <Data key="Port Format" value="3,0" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">

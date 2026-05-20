@@ -16,21 +16,23 @@
 ##################################################################### 
                     1::Clock Frequency Summary
 ===================================================================== 
-Number of clocks: 14
+Number of clocks: 16
 Clock: ClockBlock/ff_div_15  | N/A  | Target: 100.00 MHz  | 
 Clock: ClockBlock/ff_div_5   | N/A  | Target: 100.00 MHz  | 
+Clock: Clock_1               | N/A  | Target: 1.00 MHz    | 
+Clock: Clock_1(FFB)          | N/A  | Target: 1.00 MHz    | 
 Clock: CyHFClk               | N/A  | Target: 48.00 MHz   | 
 Clock: CyILO                 | N/A  | Target: 0.03 MHz    | 
 Clock: CyIMO                 | N/A  | Target: 48.00 MHz   | 
 Clock: CyLFClk               | N/A  | Target: 0.03 MHz    | 
 Clock: CyRouted1             | N/A  | Target: 48.00 MHz   | 
 Clock: CySysClk              | N/A  | Target: 48.00 MHz   | 
-Clock: I2C_SCBCLK            | N/A  | Target: 8.00 MHz    | 
-Clock: I2C_SCBCLK(FFB)       | N/A  | Target: 8.00 MHz    | 
+Clock: I2C_SCBCLK            | N/A  | Target: 16.00 MHz   | 
+Clock: I2C_SCBCLK(FFB)       | N/A  | Target: 16.00 MHz   | 
 Clock: IN_Clock              | N/A  | Target: 48.00 MHz   | 
 Clock: IN_Clock(FFB)         | N/A  | Target: 48.00 MHz   | 
-Clock: UART_SCBCLK           | N/A  | Target: 1.37 MHz    | 
-Clock: UART_SCBCLK(FFB)      | N/A  | Target: 1.37 MHz    | 
+Clock: UART_SCBCLK           | N/A  | Target: 0.12 MHz    | 
+Clock: UART_SCBCLK(FFB)      | N/A  | Target: 0.12 MHz    | 
 
  =====================================================================
                     End of Clock Frequency Summary
@@ -66,8 +68,8 @@ Port Name  Setup to Clk  Clock Name:Phase
 
 Port Name        Clock to Out  Clock Name:Phase        
 ---------------  ------------  ----------------------  
-IN_1_Out(0)_PAD  21400         IN_Clock(FFB):R         
-IN_2_Out(0)_PAD  24448         IN_Clock(FFB):R         
+IN_1_Out(0)_PAD  21394         IN_Clock(FFB):R         
+IN_2_Out(0)_PAD  24440         IN_Clock(FFB):R         
 IN_3_Out(0)_PAD  16130         ClockBlock/ff_div_15:R  
 
 

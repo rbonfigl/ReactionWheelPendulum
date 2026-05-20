@@ -1,5 +1,5 @@
 # ReactionWheel
-# 2026-04-03 23:54:24Z
+# 2026-05-14 02:18:25Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -13,4 +13,3 @@ set_io "EN_PIN(0)" iocell 0 2
 set_io "\I2C:sda(0)\" iocell 2 1
 set_io "\I2C:scl(0)\" iocell 2 0
 set_io "\UART:tx(0)\" iocell 7 1
-set_io "\UART:rx(0)\" iocell 7 0
